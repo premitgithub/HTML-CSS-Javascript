@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-color:#c8b6ff;
+    color: #000814;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article {
+    background-color: #e7c6ff;
+    padding: 25px;
+    margin: 50px;
+}
+h3:hover {
+    color: blue;
+}
+

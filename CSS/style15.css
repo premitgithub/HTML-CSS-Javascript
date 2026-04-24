@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #222;
+    --secondary-text-color: #444;
+    --card-background: #fff;
+    --background-color: #eee;
+    --margin-default: 20px;
+}
+
+.theme {
+    --primary-text-color: #222;
+    --secondary-text-color: #444;
+    --card-background: #fff;
+    --background-color: #eee;
+}
+
+.container {
+    padding: 40px;
+    /* --my-var: pink; */
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: var(--primary-text-color);
+    text-align: center;
+    /* background-color: var(--my-var, green); */
+}
+
+.box {
+    margin-block: var(--margin-default);
+    padding: var(--margin-default);
+    color: var(--secondary-text-color);
+    background-color: var(--card-background);
+    border-radius: var(--margin-default);
+}
+
+h2 {
+    color: var(--primary-text-color);
+    margin-bottom: var(--margin-default);
+    /* background-color: var(--my-var); */
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        --my-var: plum;
+    }
+
+    .theme {
+        --primary-text-color: #fff;
+        --secondary-text-color: #ddd;
+        --card-background: #222;
+        --background-color: #111;
+    }
+}

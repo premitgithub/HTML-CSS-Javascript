@@ -1,0 +1,75 @@
+body {
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.primary-btn {
+    color: green;
+    background-color: bisque;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.primary-btn:hover {
+    color: black;
+}
+
+.primary-btn:visited {
+    color: brown;
+}
+
+.primary-btn:active {
+    color: aqua;
+    background-color: black;
+    border: 3px solid green;
+}
+
+ul li:first-child {
+    background-color: cadetblue;
+}
+
+ul li:last-child {
+    color: crimson;
+    background-color: #eee;
+}
+
+ul li:nth-child(2n) {
+    font-style: italic;
+    color: coral;
+}
+
+h1::first-letter {
+    font-size: 4rem;
+}
+
+p::first-line {
+    background-color:antiquewhite;
+}
+
+::selection {
+    color: greenyellow;
+    background-color: black;
+}
+
+h3::before {
+    content: 'any';   
+}
+
+h3::after {
+    content: '*';
+    color: red;
+}
+
+.required::after {
+    content: '*';
+    color: red;
+}
+
+.important::after {
+    content: 'important';
+    margin: 10px;
+    background-color: red;
+    color: white;
+    font-size: 0.5rem;
+    padding: 0.2rem;
+}

@@ -1,0 +1,26 @@
+body {
+    font-size: 20px;
+}
+#first {
+    color: magenta;
+}
+.purple {
+    color: purple;
+    font-family: monospace;
+}
+.highlight{
+    background-color: yellow;
+    font-weight:bolder;
+    font-style: italic;
+}
+.highlight:hover {
+    font-family: monospace;
+}
+
+#first>p {
+    border: 3.5px solid black;
+    width: 25%;
+}
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

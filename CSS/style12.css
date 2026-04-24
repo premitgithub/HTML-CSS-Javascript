@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 150vh;
+    border: 5px solid rgb(24, 1, 24);
+    display: grid;
+    margin: 2px;
+    /* gap: 10px; */
+    row-gap: 20px;
+    column-gap: 20px;
+    /*grid-template-columns: 3fr 2fr 1fr 2fr;*/
+    /* grid-template-columns: repeat(4, auto); */
+    grid-template-columns: 200px 200px 200px 200px;
+    /* grid-template-rows: 200px 80px;
+    grid-auto-rows: 100px;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch; */
+    grid-template-areas: "hdr hdr hdr hdr"
+                         "sbr main main main"
+                         "sbr main main main"
+                         "ftr ftr ftr ftr";
+}
+
+.box {
+    border: 5px solid purple;
+    padding: 12px;
+}
+
+#box-1 {
+    background-color: rgb(4, 248, 248);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column: 1/ 5;
+    /* justify-self: end;
+    align-self: center; */
+}
+
+#box-3 {
+    background-color: pink;
+    grid-row: 2/ 5;
+}
+
+#box-13 {
+    background-color: green;
+    grid-row: 5/ 7;
+}
+
+#box-20 {
+    background-color: lightblue;
+    grid-column: 1/ 5;
+}
+
+#box-2 {
+    background-color: thistle;
+    grid-area: 2/ 2/ 4/ 4;
+}
+
+#box-6 {
+    background-color: azure;
+    grid-area: hdr;
+}
+
+#box-9 {
+    background-color: brown;
+    grid-area: sbr;
+}
+
+
+#box-10 {
+    background-color: cadetblue;
+    grid-area: main;
+}
+
+#box-17 {
+    background-color: chocolate;
+    grid-area: ftr;
+}

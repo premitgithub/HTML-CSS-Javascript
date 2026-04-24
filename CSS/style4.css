@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+.box {
+    border:15px solid rgb(255, 173, 187);
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    margin: 40px;
+    box-sizing:border-box;
+}
+.box2 {
+    text-align: center;
+}
