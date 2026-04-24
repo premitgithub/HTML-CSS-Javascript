@@ -1,0 +1,33 @@
+#heading {
+    background-color: pink;
+    color: maroon;
+}
+#first {
+    background-color: blue;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: plum;
+}
+/* practice question 2 DOM(2) */
+.paragraph {
+    color: rgb(37, 9, 37);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.newpara {
+    background-color: plum;
+    font-weight: bolder;
+}
+/* toggling to dark and light mode */
+.dark {
+    background-color: black;
+    color: white;
+}
+.light {
+    background-color: white;
+    color: black;
+}
